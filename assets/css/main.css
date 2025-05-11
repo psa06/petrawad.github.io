@@ -1825,13 +1825,6 @@ input, select, textarea {
 
 		}
 		
-		@media screen and (max-width: 736px) {
-    #header nav a {
-    font-size: 4px;
-    padding: 0 4px;
-  }
-}
-
 	@media screen and (max-width: 980px) {
 
 		header br {
@@ -3391,6 +3384,16 @@ input, select, textarea {
 		width: 20em;
 		z-index: 10002;
 	}
+	
+	
+	/* Hide hamburger on desktop */
+.menu-toggle {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
 
 		#menu ul {
 			list-style: none;
