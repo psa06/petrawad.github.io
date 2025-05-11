@@ -179,6 +179,16 @@ input, select, textarea {
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
+	
+	h2 {
+		color: #fff;
+		font-weight: 800;
+		letter-spacing: 0.225em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+		text-align: center;
+	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1760,6 +1770,8 @@ input, select, textarea {
 						}
 
 		}
+		
+
 
 /* Section/Article */
 
@@ -1780,7 +1792,7 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 1.9em;
 	}
 
 	header.major {
@@ -1812,6 +1824,13 @@ input, select, textarea {
 			}
 
 		}
+		
+		@media screen and (max-width: 736px) {
+    #header nav a {
+    font-size: 4px;
+    padding: 0 4px;
+  }
+}
 
 	@media screen and (max-width: 980px) {
 
@@ -3883,6 +3902,7 @@ input, select, textarea {
 				#main > header h2 {
 					font-size: 1.25em;
 					margin: 0 0 1em 0;
+					text-align: center;
 				}
 
 		}
